@@ -29,23 +29,8 @@
     }
 }
 
-@include font-face("Frutiger",
-"../fonts/FrutigerLTStd-Cn",
-"400",
-"normal",
-"otf");
-@include font-face("Frutiger-bold",
-"../fonts/FrutigerLTStd-Bold",
-"600",
-"normal",
-"otf");
-@include font-face("calibri",
-"../fonts/Calibri Regular",
-"400",
-"normal",
-"ttf");
-@include font-face("calibri-bold",
-"../fonts/Calibri Bold",
+@include font-face("Signerica",
+"../fonts/Signerica_Medium",
 "400",
 "normal",
 "ttf");

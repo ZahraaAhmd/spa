@@ -1,3 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap');
 
 /*font-family: 'Raleway', sans-serif;*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: $text-color;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%
+}
+
+.gray {
+    background: $gray
+}
+
+.gray-bg {
+    background: $light-gray;
+    height: 100%;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 30px;
+    color: $purple;
+    font-weight: 700;
+    .sign {
+        font-size: 18px;
+        line-height: 30px;
+        color: $gold;
+        font-family: "Signerica";
+        font-weight: 500;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.line {
+    width: 567px;
+    height: 1px;
+    background-color: #e1e1e1;
+    margin: 60px auto
+}
+
+.subtitle {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.px-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.num {
+    font-family: 'Oswald', sans-serif;
+    font-size: 160px;
+    line-height: 36px;
+    font-weight: 400;
+}

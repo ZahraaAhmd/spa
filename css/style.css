@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap");
+@font-face {
+  font-family: "Signerica";
+  font-style: "normal";
+  font-weight: "400";
+  src: url("../fonts/Signerica_Medium.ttf") format("truetype");
+}
+
+/**** start header style ***/
+/* line 3, Z:/work/spa/sass/_header.scss */
+header {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+/* line 7, Z:/work/spa/sass/_header.scss */
+header .logo img {
+  max-height: 80px;
+}
+
+/* line 11, Z:/work/spa/sass/_header.scss */
+header .col-4 {
+  border-left: 1px solid #ebebeb;
+}
+
+/* line 14, Z:/work/spa/sass/_header.scss */
+header .company-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* line 18, Z:/work/spa/sass/_header.scss */
+header .company-info .icon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* line 26, Z:/work/spa/sass/_header.scss */
+header .company-info .info {
+  padding-left: 15px;
+}
+
+/* line 28, Z:/work/spa/sass/_header.scss */
+header .company-info .info span {
+  display: block;
+}
+
+/*font-family: 'Raleway', sans-serif;*/
+/* line 6, Z:/work/spa/sass/_common.scss */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #898989;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* line 13, Z:/work/spa/sass/_common.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 17, Z:/work/spa/sass/_common.scss */
+.gray {
+  background: #8e8e8e;
+}
+
+/* line 21, Z:/work/spa/sass/_common.scss */
+.gray-bg {
+  background: #edeef0;
+  height: 100%;
+}
+
+/* line 26, Z:/work/spa/sass/_common.scss */
+.title {
+  font-size: 36px;
+  line-height: 30px;
+  color: #6c217e;
+  font-weight: 700;
+}
+
+/* line 31, Z:/work/spa/sass/_common.scss */
+.title .sign {
+  font-size: 18px;
+  line-height: 30px;
+  color: #b3a16e;
+  font-family: "Signerica";
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+}
+
+/* line 42, Z:/work/spa/sass/_common.scss */
+h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+/* line 49, Z:/work/spa/sass/_common.scss */
+.line {
+  width: 567px;
+  height: 1px;
+  background-color: #e1e1e1;
+  margin: 60px auto;
+}
+
+/* line 56, Z:/work/spa/sass/_common.scss */
+.subtitle {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* line 65, Z:/work/spa/sass/_common.scss */
+.px-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 70, Z:/work/spa/sass/_common.scss */
+.num {
+  font-family: 'Oswald', sans-serif;
+  font-size: 160px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+/**** start slider section ****/
+/* line 4, Z:/work/spa/sass/_home.scss */
+.home-slider .gray {
+  min-height: 600px;
+}
+
+/*** intro section style ***/
+/* line 12, Z:/work/spa/sass/_home.scss */
+.intro {
+  padding-top: 100px;
+}
+
+/* line 14, Z:/work/spa/sass/_home.scss */
+.intro h3 {
+  color: #b3a16e;
+  margin-bottom: 25px;
+}
+
+/* line 18, Z:/work/spa/sass/_home.scss */
+.intro .gray-bg {
+  height: 450px;
+}
+
+/* line 21, Z:/work/spa/sass/_home.scss */
+.intro .bg-img {
+  margin-top: -25px;
+}
+
+/*** features  style ****/
+/* line 30, Z:/work/spa/sass/_home.scss */
+.features .gray-bg.horz {
+  height: 500px;
+}
+
+/* line 33, Z:/work/spa/sass/_home.scss */
+.features .feature-info {
+  max-width: 460px;
+  padding-left: 50px;
+}
+
+/* line 36, Z:/work/spa/sass/_home.scss */
+.features .feature-info .num {
+  color: rgba(179, 161, 110, 0.149);
+}
+
+/* line 39, Z:/work/spa/sass/_home.scss */
+.features .feature-info h3 {
+  font-size: 16px;
+  color: #6c217e;
+  font-style: italic;
+  line-height: 2.998;
+  margin-top: -65px;
+  margin-bottom: 75px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 49, Z:/work/spa/sass/_home.scss */
+.features .feature-info p {
+  line-height: 1.846;
+}
+
+/* line 54, Z:/work/spa/sass/_home.scss */
+.features .row:nth-child(even) .feature-info {
+  margin-left: auto;
+  margin-right: 50px;
+  text-align: right;
+}
+
+/*# sourceMappingURL=../css/style.map */
