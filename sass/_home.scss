@@ -102,3 +102,42 @@
         }
     }
 }
+
+
+/*** menu section style ****/
+
+.menu {
+    .menu-block {
+        padding-right: 15px;
+        max-width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+        .gray-bg {
+            height: 268px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 16px;
+            color: rgb(108, 33, 126);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 3.278;
+            .gold {
+                color: $gold;
+                font-size: 11px;
+            }
+        }
+    }
+    .menu-slider {
+        margin-top: 60px;
+    }
+    .slick-arrow {
+        background: $purple;
+        width: 58px;
+        height: 51px;
+    }
+    .slick-next:before {
+        content: "";
+        background: url("../images/arrow-right.png") no-repeat;
+    }
+}
