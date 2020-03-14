@@ -256,4 +256,10 @@ h3 {
   line-height: 1.5;
 }
 
+/* line 99, Z:/work/spa/sass/_home.scss */
+.features .vertical-block p {
+  padding: 0 20px;
+  line-height: 1.853;
+}
+
 /*# sourceMappingURL=../css/style.map */
