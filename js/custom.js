@@ -21,3 +21,7 @@ $('.menu-slider').slick({
         }
     }]
 });
+
+function scrollToTop() {
+    window.scrollTo(0, 0);
+}
