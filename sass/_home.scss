@@ -256,7 +256,7 @@
 
 .offer {
     background-color: #f6f7f7;
-    padding: 60px 0;
+    padding: 70px 0;
     h2 {
         font-size: 36px;
         line-height: 36px;
@@ -275,5 +275,41 @@
         line-height: 36px;
         font-weight: 400;
         margin-bottom: 30px;
+    }
+}
+
+
+/******** footer style *******/
+
+footer {
+    background: $purple;
+    padding-top: 20px;
+    p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 36px;
+        color: $gold;
+        font-weight: 500;
+    }
+}
+
+.scroll-top {
+    position: absolute;
+    bottom: 72px;
+    left: calc(50% - 30px);
+    span {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 36px;
+        color: $gold;
+        font-weight: 500;
+        .btn {
+            display: block;
+            width: 60px;
+            height: 36px;
+            padding: 0;
+            text-align: center;
+            margin: 0 auto;
+        }
     }
 }
