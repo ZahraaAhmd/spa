@@ -408,4 +408,44 @@ h3 {
   font-weight: 400;
 }
 
+/* line 203, Z:/work/spa/sass/_home.scss */
+.blog {
+  padding-top: 60px;
+}
+
+/* line 205, Z:/work/spa/sass/_home.scss */
+.blog .blog-block {
+  display: flex;
+}
+
+/* line 207, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-time {
+  display: flex;
+  position: relative;
+}
+
+/* line 210, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-time .num {
+  font-size: 100px;
+  line-height: 36px;
+  font-weight: 400;
+  color: rgba(108, 33, 126, 0.149);
+}
+
+/* line 216, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-time .sign {
+  font-size: 30px;
+  line-height: 18px;
+  color: #b3a16e;
+  font-family: "Signerica";
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+}
+
+/* line 226, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-info {
+  padding-left: 15px;
+}
+
 /*# sourceMappingURL=../css/style.map */

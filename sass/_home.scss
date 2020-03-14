@@ -199,3 +199,32 @@
         font-weight: 400;
     }
 }
+
+.blog {
+    padding-top: 60px;
+    .blog-block {
+        display: flex;
+        .blog-time {
+            display: flex;
+            position: relative;
+            .num {
+                font-size: 100px;
+                line-height: 36px;
+                font-weight: 400;
+                color: rgba(108, 33, 126, 0.149);
+            }
+            .sign {
+                font-size: 30px;
+                line-height: 18px;
+                color: $gold;
+                font-family: "Signerica";
+                font-weight: 500;
+                position: absolute;
+                top: 50%;
+            }
+        }
+        .blog-info {
+            padding-left: 15px;
+        }
+    }
+}
