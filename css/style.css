@@ -159,6 +159,17 @@ h3 {
   outline: 0 !important;
 }
 
+/* line 97, Z:/work/spa/sass/_common.scss */
+.btn-purple {
+  width: 143px;
+  background-color: #6c217e;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0;
+}
+
 /**** start slider section ****/
 /* line 4, Z:/work/spa/sass/_home.scss */
 .home-slider .gray {
@@ -411,28 +422,30 @@ h3 {
 /* line 203, Z:/work/spa/sass/_home.scss */
 .blog {
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 
-/* line 205, Z:/work/spa/sass/_home.scss */
+/* line 206, Z:/work/spa/sass/_home.scss */
 .blog .blog-block {
   display: flex;
+  margin-bottom: 20px;
 }
 
-/* line 207, Z:/work/spa/sass/_home.scss */
+/* line 209, Z:/work/spa/sass/_home.scss */
 .blog .blog-block .blog-time {
   display: flex;
   position: relative;
 }
 
-/* line 210, Z:/work/spa/sass/_home.scss */
+/* line 212, Z:/work/spa/sass/_home.scss */
 .blog .blog-block .blog-time .num {
   font-size: 100px;
-  line-height: 36px;
+  line-height: 1;
   font-weight: 400;
   color: rgba(108, 33, 126, 0.149);
 }
 
-/* line 216, Z:/work/spa/sass/_home.scss */
+/* line 218, Z:/work/spa/sass/_home.scss */
 .blog .blog-block .blog-time .sign {
   font-size: 30px;
   line-height: 18px;
@@ -440,12 +453,70 @@ h3 {
   font-family: "Signerica";
   font-weight: 500;
   position: absolute;
-  top: 50%;
+  top: 30%;
 }
 
-/* line 226, Z:/work/spa/sass/_home.scss */
+/* line 228, Z:/work/spa/sass/_home.scss */
 .blog .blog-block .blog-info {
-  padding-left: 15px;
+  padding-left: 25px;
+}
+
+/* line 230, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-info h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c217e;
+  font-weight: 500;
+}
+
+/* line 236, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-info .author {
+  font-size: 11px;
+  line-height: 32px;
+  color: #b3a16e;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* line 245, Z:/work/spa/sass/_home.scss */
+.blog .blog-block .blog-info p {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/** offer style **/
+/* line 257, Z:/work/spa/sass/_home.scss */
+.offer {
+  background-color: #f6f7f7;
+  padding: 60px 0;
+}
+
+/* line 260, Z:/work/spa/sass/_home.scss */
+.offer h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #6c217e;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 267, Z:/work/spa/sass/_home.scss */
+.offer .gold-text {
+  font-size: 72px;
+  line-height: 1;
+  color: #b3a16e;
+  font-weight: 700;
+}
+
+/* line 273, Z:/work/spa/sass/_home.scss */
+.offer p {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=../css/style.map */

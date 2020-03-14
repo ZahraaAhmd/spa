@@ -202,14 +202,16 @@
 
 .blog {
     padding-top: 60px;
+    padding-bottom: 30px;
     .blog-block {
         display: flex;
+        margin-bottom: 20px;
         .blog-time {
             display: flex;
             position: relative;
             .num {
                 font-size: 100px;
-                line-height: 36px;
+                line-height: 1;
                 font-weight: 400;
                 color: rgba(108, 33, 126, 0.149);
             }
@@ -220,11 +222,58 @@
                 font-family: "Signerica";
                 font-weight: 500;
                 position: absolute;
-                top: 50%;
+                top: 30%;
             }
         }
         .blog-info {
-            padding-left: 15px;
+            padding-left: 25px;
+            h3 {
+                font-size: 20px;
+                line-height: 30px;
+                color: $purple;
+                font-weight: 500;
+            }
+            .author {
+                font-size: 11px;
+                line-height: 32px;
+                color: $gold;
+                font-weight: 400;
+                font-style: italic;
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 13px;
+                line-height: 24px;
+                font-weight: 400;
+            }
         }
+    }
+}
+
+
+/** offer style **/
+
+.offer {
+    background-color: #f6f7f7;
+    padding: 60px 0;
+    h2 {
+        font-size: 36px;
+        line-height: 36px;
+        color: $purple;
+        font-weight: 400;
+        margin: 0;
+    }
+    .gold-text {
+        font-size: 72px;
+        line-height: 1;
+        color: $gold;
+        font-weight: 700;
+    }
+    p {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 400;
+        margin-bottom: 30px;
     }
 }
