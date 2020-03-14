@@ -167,20 +167,22 @@ h3 {
 /* line 30, Z:/work/spa/sass/_home.scss */
 .features .gray-bg.horz {
   height: 500px;
+  z-index: 1;
+  position: relative;
 }
 
-/* line 33, Z:/work/spa/sass/_home.scss */
+/* line 35, Z:/work/spa/sass/_home.scss */
 .features .feature-info {
   max-width: 460px;
   padding-left: 50px;
 }
 
-/* line 36, Z:/work/spa/sass/_home.scss */
+/* line 38, Z:/work/spa/sass/_home.scss */
 .features .feature-info .num {
   color: rgba(179, 161, 110, 0.149);
 }
 
-/* line 39, Z:/work/spa/sass/_home.scss */
+/* line 41, Z:/work/spa/sass/_home.scss */
 .features .feature-info h3 {
   font-size: 16px;
   color: #6c217e;
@@ -192,16 +194,66 @@ h3 {
   margin-right: 10px;
 }
 
-/* line 49, Z:/work/spa/sass/_home.scss */
+/* line 51, Z:/work/spa/sass/_home.scss */
 .features .feature-info p {
   line-height: 1.846;
 }
 
-/* line 54, Z:/work/spa/sass/_home.scss */
+/* line 56, Z:/work/spa/sass/_home.scss */
 .features .row:nth-child(even) .feature-info {
   margin-left: auto;
   margin-right: 50px;
   text-align: right;
+}
+
+/* line 62, Z:/work/spa/sass/_home.scss */
+.features .vertical-block {
+  margin-top: -45px;
+}
+
+/* line 64, Z:/work/spa/sass/_home.scss */
+.features .vertical-block .gray-bg,
+.features .vertical-block .gray {
+  height: 450px;
+}
+
+/* line 68, Z:/work/spa/sass/_home.scss */
+.features .vertical-block .gray {
+  background: #dbdce0;
+}
+
+/* line 71, Z:/work/spa/sass/_home.scss */
+.features .vertical-block .num {
+  font-size: 100px;
+  line-height: 0.36;
+  color: #b3a16e;
+  display: block;
+  margin-top: -35px;
+  position: relative;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+}
+
+/* line 80, Z:/work/spa/sass/_home.scss */
+.features .vertical-block .num:after {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 4px;
+  background-color: #898989;
+  position: absolute;
+  bottom: 15px;
+  margin: 0 auto;
+  left: calc(50% - 23px);
+}
+
+/* line 92, Z:/work/spa/sass/_home.scss */
+.features .vertical-block h3 {
+  font-size: 16px;
+  color: #6c217e;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=../css/style.map */

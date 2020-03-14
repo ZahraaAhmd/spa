@@ -29,6 +29,8 @@
 .features {
     .gray-bg.horz {
         height: 500px;
+        z-index: 1;
+        position: relative;
     }
     .feature-info {
         max-width: 460px;
@@ -55,6 +57,44 @@
             margin-left: auto;
             margin-right: 50px;
             text-align: right;
+        }
+    }
+    .vertical-block {
+        margin-top: -45px;
+        .gray-bg,
+        .gray {
+            height: 450px;
+        }
+        .gray {
+            background: rgb(219, 220, 224);
+        }
+        .num {
+            font-size: 100px;
+            line-height: 0.36;
+            color: #b3a16e;
+            display: block;
+            margin-top: -35px;
+            position: relative;
+            padding-bottom: 60px;
+            margin-bottom: 20px;
+            &:after {
+                content: "";
+                display: block;
+                width: 46px;
+                height: 4px;
+                background-color: rgb(137, 137, 137);
+                position: absolute;
+                bottom: 15px;
+                margin: 0 auto;
+                left: calc(50% - 23px);
+            }
+        }
+        h3 {
+            font-size: 16px;
+            color: $purple;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.5;
         }
     }
 }

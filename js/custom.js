@@ -1,7 +1,7 @@
 /*** services slider */
-$('.services-slider').slick({
-    dots: true,
-    arrows: false,
+$('.menu-slider').slick({
+    dots: false,
+    arrows: true,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
